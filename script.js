@@ -13,15 +13,8 @@ console.log(hour);
 console.log(time);
 console.log(clock);
 
-/*for (i = 9; i <= 17; i++){
-  if()
-}
 
-var divValue = ("#button-"+i).val();
-if(divValue === i){
-  $("#result").html(<div style="background-color:blue"/>)
-}
-*/
+
 console.log("Before the test");
 //saving the inputs below.
 
@@ -44,6 +37,7 @@ function save1() {
   var varStorage = localStorage.getItem("chore1");
   $(".description").text(varStorage);
 }
+
 
 console.log("can you see me?");
 
@@ -141,3 +135,86 @@ function save10() {
   var varStorage = localStorage.getItem("chore10");
   $(".tenth").text(varStorage);
 }
+
+function save11() {
+
+  var line11 = $(".eleventh").val();
+  console.log(line10);
+
+  localStorage.setItem("chore11", line11);
+
+  var varStorage = localStorage.getItem("chore11");
+  $(".eleventh").text(varStorage);
+}
+
+
+var div1 = $("#taskEight");
+if (div1 === 8) {
+  $("#taskEight").html("<div style='background-color:red' />")
+} else {
+  $("#taskEight").html("<div style='background-color:bisque' />")
+};
+
+var div2 = $("#taskNine");
+if (div2 === 9) {
+  $("#taskNine").html("<div style='background-color:red' />")
+} else {
+  $("#taskNine").html("<div style='background-color:bisque' />")
+};
+
+var div3 = $("#taskTen");
+if (div3 === 10) {
+  $("#taskTen").html("<div style='background-color:red' />")
+} else {
+  $("#taskTen").html("<div style='background-color:bisque' />")
+};
+
+var div4 = $("#taskEleven");
+if (div4 === 11) {
+  $("#taskEleven").html("<div style='background-color:red' />")
+} else {
+  $("#taskEleven").html("<div style='background-color:bisque' />")
+};
+
+var div5 = $("#taskTwelve");
+if (div5 === 12) {
+  $("#taskTwelve").html("<div style='background-color:red' />")
+} else {
+  $("#taskTwelve").html("<div style='background-color:bisque' />")
+};
+
+var div6 = $("#taskThirteen");
+if (div6 === 1) {
+  $("#taskThirteen").html("<div style='background-color:red' />")
+} else {
+  $("#taskThirteen").html("<div style='background-color:bisque' />")
+};
+
+
+var div7 = $("#taskFourteen");
+if (div7 === 2) {
+  $("#taskFourteen").html("<div style='background-color:red' />")
+} else {
+  $("#taskFourteen").html("<div style='background-color:bisque' />")
+};
+
+var div8 = $("#taskFifteen");
+if (div8 === 3) {
+  $("#taskFifteen").html("<div style='background-color:red' />")
+} else {
+  $("#taskFifteen").html("<div style='background-color:bisque' />")
+};
+
+var div9 = $("#tasksixteen");
+if (div9 === 4) {
+  $("#tasksixteen").html("<div style='background-color:red' />")
+} else {
+  $("#tasksixteen").html("<div style='background-color:bisque' />")
+};
+
+var div10 = $("#taskSeventeen");
+if (div10 === 5) {
+  $("#taskSeventeen").html("<div style='background-color:red' />")
+} else {
+  $("#taskSeventeen").html("<div style='background-color:bisque' />")
+};
