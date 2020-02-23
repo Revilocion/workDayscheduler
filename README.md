@@ -8,3 +8,8 @@ Todo:
 
 
 * We will need to color code what hour it is and things like that.
+* we would need to create a for loop that looks at how many divs there are or id's.
+* Three statements if it's green red or blue.
+* tell the function to change the color via css
+
+* We will need to hit the save button and it will save the user input to the local storage.
